@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "designation": "Software Engineer",
+    "department": "IT"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "designation": "HR Manager",
+    "department": "Human Resources"
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "designation": "Data Scientist",
+    "department": "Analytics"
+  },
+    {
+    "id": "4",
+    "name": "Test Johnson",
+    "designation": "Data Scientist",
+    "department": "Analytics"
+  },
+    {
+    "id": "5",
+    "name": "Ricky Ponting",
+    "designation": "AEM Developer",
+    "department": "QA"
+  },
+    {
+    "id": "6",
+    "name": "Andrew Symonds",
+    "designation": "Programmer",
+    "department": "Talent planning"
+  },
+    {
+    "id": "7",
+    "name": "Nathan Brackrn",
+    "designation": "Squid",
+    "department": "DX"
+  },
+    {
+      "id": "8",
+      "name": "Emily Davis",
+      "designation": "Marketing Specialist",
+      "department": "Marketing"
+    },
+    {
+      "id": "9",
+      "name": "Michael Brown",
+      "designation": "Business Analyst",
+      "department": "Business"
+    },
+    {
+      "id": "10",
+      "name": "Olivia Wilson",
+      "designation": "Content Writer",
+      "department": "Content"
+    },
+    {
+      "id": "11",
+      "name": "David Harris",
+      "designation": "Network Engineer",
+      "department": "Infrastructure"
+    },
+    {
+      "id": "12",
+      "name": "Liam Miller",
+      "designation": "Security Analyst",
+      "department": "Cybersecurity"
+    },
+    {
+      "id": "13",
+      "name": "Isabella Garcia",
+      "designation": "Product Manager",
+      "department": "Product"
+    },
+    {
+      "id": "14",
+      "name": "James Martinez",
+      "designation": "Database Administrator",
+      "department": "Database"
+    },
+    {
+      "id": "15",
+      "name": "Charlotte Wilson",
+      "designation": "Customer Support Lead",
+      "department": "Customer Support"
+    }
+]
