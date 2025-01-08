@@ -1,0 +1,52 @@
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+  <sly data-sly-call="${clientlib.all @ categories='employeetable.clientLib'}" />
+</sly>
+
+<div class="employee-table">
+    <div class="filters">
+        <!-- Column 1 -->
+        <div>
+            <label for="searchById">Search by ID:</label>
+            <input type="text" id="searchById" placeholder="Enter ID">
+        </div>
+        <div>
+            <label for="searchByName">Search by Name:</label>
+            <input type="text" id="searchByName" placeholder="Enter Name">
+        </div>
+        
+        <!-- Column 2 -->
+        <div>
+            <label for="searchByDepartment">Search by Department:</label>
+            <input type="text" id="searchByDepartment" placeholder="Enter Department">
+        </div>
+        <div>
+            <label for="searchByDesignation">Search by Designation:</label>
+            <input type="text" id="searchByDesignation" placeholder="Enter Designation">
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+            <sly data-sly-use.model="com.adobe.aem.guides.wknd.core.models.EmployeeTableModel">
+                <sly data-sly-list.employee="${model.employees}">
+                    <tr>
+                        <td>${employee.id}</td>
+                        <td>${employee.name}</td>
+                        <td>${employee.designation}</td>
+                        <td>${employee.department}</td>
+                    </tr>
+                </sly>
+            </sly>
+        </tbody>
+    </table>
+</div>
+
+
